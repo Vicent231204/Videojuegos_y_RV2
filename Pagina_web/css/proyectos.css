@@ -1,0 +1,157 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{ padding: 0; margin: 0;
+box-sizing: border-box; text-decoration: none;}
+
+
+/*******************/
+/* VERSION MÓVIL   */
+/*******************/
+
+
+
+:root{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    --color-primario: #8C52FF; 
+}
+
+body{
+    margin: 0rem;
+   
+    background-color: white;
+    color: black;
+}
+
+
+
+#logo{
+  
+  width: 60%;
+  display: block;
+  margin:  0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  
+}
+
+section{
+    padding-top: 20px;
+}
+
+
+div.descarga{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div a#boton {
+    display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  text-align: center;
+  background-color: var(--color-primario);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin:  0 auto;
+    margin-top: 10px;
+     margin-bottom: 20px;
+}
+p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+   
+  }
+  footer > div#social {
+    padding-top: 15px;
+    text-align: center;
+    
+    
+  }
+  footer > div#social > h3 {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  footer div#social img {
+    width: 20%;
+  }
+  
+  footer div#politicas {
+    background-color: rgb(48, 47, 47);
+    padding-bottom: 10px;
+    
+  }
+  footer div#politicas a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10%;
+    
+  }
+  
+
+
+
+
+@media  (min-width: 992px){
+
+    :root{
+      background-color:white;
+      font-size: 20px;
+    }
+    body{
+      width: 80%;
+      margin: 0 auto;
+      max-width: 1024px;
+     
+    }
+  
+  
+    #logo{
+    
+      width: 40%;
+      display: block;
+      margin:  0 auto;
+      
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding-top: 5px;
+      
+      
+    }}
